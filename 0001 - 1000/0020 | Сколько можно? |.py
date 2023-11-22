@@ -1,4 +1,4 @@
-n = int(input())   # 25 % 10 = 5  
+n = int(input())   
 
 reqemler = []
 eded_cem = 0
