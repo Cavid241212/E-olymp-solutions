@@ -1,4 +1,4 @@
-n = int(input())   
+n = int(input())   # 25 % 10 = 5  
 
 reqemler = []
 eded_cem = 0
@@ -13,7 +13,7 @@ while n>=0:
         n = a
         a = n
         eded_cem = 0
-    elif n % 10 != 0:
+    elif n > 0:
         x = n % 10
         n //= 10
         eded_cem += x
