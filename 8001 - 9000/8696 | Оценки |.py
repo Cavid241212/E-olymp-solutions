@@ -1,9 +1,8 @@
-n=input()
-x=n.count("2")
-y=n.count("5")
-if x>y:
-    print(2)
-elif y>x:
-    print(5)
+n = input()
+digit_counts = [n.count(str(i)) for i in range(10)]
+max_count = max(digit_counts)
+
+if digit_counts.count(max_count) == 1:
+    print(digit_counts.index(max_count))
 else:
     print("=")
